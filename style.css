@@ -1,0 +1,143 @@
+#wrapper{
+  width: 53em;
+  position: relative;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+#title-char-wrapper{
+  position: relative;
+  top: 1em;
+}
+#gallina{
+  position:absolute;
+  top: 10em;
+  left: 20em;
+  animation-name: face-left;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+}
+#gallina-2{
+  position:absolute;
+  top: 10em;
+  left: 20em;
+  opacity: 0;
+  animation-name: face-right;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+}
+@keyframes face-left {
+  0% { opacity: 1; }
+  49% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 0; }
+}
+@keyframes face-right {
+  0% { opacity: 0; }
+  49% { opacity: 0; }
+  50% { opacity: 1; }
+  100% { opacity: 1; }
+}
+#pdp-text{
+  position: absolute;
+  left: 4em;
+  top: 10em;
+}
+#f-small{
+  position: absolute;
+  left: 6em;
+  top: 16em;
+}
+#f-big{
+  position: absolute;
+  left: 7em;
+  top: 26em;
+}
+
+
+#shock-1{
+  position: absolute;
+  left: 5.5em;
+  top: 13.5em;
+
+  animation-name: blink-1;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+}
+#shock-2{
+  position: absolute;
+  left: 10em;
+  top: 13.5em;
+
+  animation-name: blink-2;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+}
+#shock-3{
+  position: absolute;
+  left: 16em;
+  top: 27em;
+
+  animation-name: blink-3;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+}
+#shock-4{
+  position: absolute;
+  left: 19em;
+  top: 31.5em;
+
+  animation-name: blink-4;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+}
+#shock-5{
+  position: absolute;
+  left: 16.5em;
+  top: 36.5em;
+
+  animation-name: blink-5;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+}
+#shock-6{
+  position: absolute;
+  left: 4em;
+  top: 29em;
+
+  animation-name: blink-6;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+}
+
+
+@keyframes blink-1 {
+ 0%{
+   opacity: 0;
+ }
+}
+@keyframes blink-2 {
+  10%{
+    opacity: 0;
+  }
+ }
+@keyframes blink-3 {
+  20%{
+    opacity: 0;
+  }
+ }
+@keyframes blink-4 {
+  30%{
+    opacity: 0;
+  }
+ }
+@keyframes blink-5 {
+  40%{
+    opacity: 0;
+  }
+ }
+@keyframes blink-6 {
+  50%{
+    opacity: 0;
+  }
+ }
